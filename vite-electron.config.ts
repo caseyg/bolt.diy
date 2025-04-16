@@ -63,6 +63,11 @@ export default defineConfig((config) => {
       'OLLAMA_API_BASE_URL',
       'LMSTUDIO_API_BASE_URL',
       'TOGETHER_API_BASE_URL',
+      'IBM_WATSONX_API_KEY',
+      'IBM_WATSONX_PROJECT_ID',
+      'IBM_WATSONX_SPACE_ID',
+      'IBM_WATSONX_INSTANCE_CRN',
+      'IBM_WATSONX_API_BASE_URL',
     ],
     css: {
       preprocessorOptions: {

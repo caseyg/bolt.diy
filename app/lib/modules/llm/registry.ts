@@ -4,6 +4,7 @@ import DeepseekProvider from './providers/deepseek';
 import GoogleProvider from './providers/google';
 import GroqProvider from './providers/groq';
 import HuggingFaceProvider from './providers/huggingface';
+import IBMwatsonxProvider from './providers/ibm-watsonx';
 import LMStudioProvider from './providers/lmstudio';
 import MistralProvider from './providers/mistral';
 import OllamaProvider from './providers/ollama';
@@ -25,6 +26,7 @@ export {
   GroqProvider,
   HuggingFaceProvider,
   HyperbolicProvider,
+  IBMwatsonxProvider,
   MistralProvider,
   OllamaProvider,
   OpenAIProvider,

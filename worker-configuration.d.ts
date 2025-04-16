@@ -18,4 +18,9 @@ interface Env {
   XAI_API_KEY: string;
   PERPLEXITY_API_KEY: string;
   AWS_BEDROCK_CONFIG: string;
+  IBM_WATSONX_API_KEY: string;
+  IBM_WATSONX_PROJECT_ID: string;
+  IBM_WATSONX_SPACE_ID: string;
+  IBM_WATSONX_INSTANCE_CRN: string;
+  IBM_WATSONX_API_BASE_URL: string;
 }
